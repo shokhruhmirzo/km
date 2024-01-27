@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-up{
+    padding-left: 130px;
+}
+
+.container{
+    padding-top: 70px;
+}
+.title {
+    margin-bottom: 30px;
+}
+.inp {
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid aqua;
+    outline: none;
+}
+
+label{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn {
+    margin-left: 30px;
+    padding: 15px;
+    border-radius: 25px;
+    background: aqua;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.card {
+    padding: 30px;
+    border: 2px solid aqua;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+.h4-text-1 {
+    text-align: center;
+    margin-top: 15px;
+}
+.h4-text-2 {
+    text-align: center;
+    margin-top: 15px;
+}
+.h4-text-3 {
+    text-align: center;
+    margin-top: 15px;
+}
+.h4-text-4 {
+    text-align: center;
+    margin-top: 15px;
+}
