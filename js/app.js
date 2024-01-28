@@ -19,6 +19,7 @@ function bt(){
 
     result = val / 800
     text4.textContent = result + " soat"
+    // text4.textContent = Math.(result + " soat")
     
 }
 
