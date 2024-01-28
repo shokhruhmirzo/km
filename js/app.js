@@ -25,5 +25,5 @@ function bt(){
 
 document.addEventListener('contextmenu', function (e) {
     e.preventDefault();
-    alert("Kod ni ko'chirish taqiqlanadi !!!");
+    alert("Kod ni ko'chirish mumkinmas !!!");
 });
