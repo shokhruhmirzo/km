@@ -18,8 +18,8 @@ function bt(){
     text3.textContent = result + " soat"
 
     result = val / 800
-    text4.textContent = result + " soat"
-    // text4.textContent = Math.(result + " soat")
+    // text4.textContent = result + " soat"
+    text4.textContent = result.toFixed(2) + " soat"
     
 }
 
