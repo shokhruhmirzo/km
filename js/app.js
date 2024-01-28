@@ -8,13 +8,13 @@ function bt(){
     var val = inp.value
     var result ;
 
-    result = val / 5;
+    result = val / 4;
     text1.textContent = result + " soat"
 
     result = val / 20
     text2.textContent = result + " soat"
 
-    result = val / 40
+    result = val / 100
     text3.textContent = result + " soat"
 
     result = val / 800
