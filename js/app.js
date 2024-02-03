@@ -6,7 +6,7 @@ var text4 = document.querySelector('.h4-text-4');
 
 function bt(){
     var val = inp.value
-    var result ;
+    var result;
 
     result = val / 4;
     text1.textContent = result + " soat"
@@ -18,9 +18,14 @@ function bt(){
     text3.textContent = result + " soat"
 
     result = val / 800
-    // text4.textContent = result + " soat"
     text4.textContent = result.toFixed(2) + " soat"
-    
+
+    if(val <= 0 ){
+        text1.textContent = "tog'ri kirit"
+        text2.textContent = "tog'ri kirit"
+        text3.textContent = "tog'ri kirit"
+        text4.textContent = "tog'ri kirit"
+    }
 }
 
 document.addEventListener('contextmenu', function (e) {
